@@ -1,0 +1,68 @@
+
+.home {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  border:2px solid orange;
+  box-shadow: 0 7px 10px rgb(240, 136, 0);
+}
+
+.highlight {
+  font-weight: bold;
+  color: #d946ef; /* fallback color */
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 15px auto 30px;
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+
+.connect {
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.resume {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+}

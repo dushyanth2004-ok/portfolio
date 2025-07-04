@@ -1,0 +1,114 @@
+
+.footer {
+  background: #0d0d0d;
+  color: white;
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  gap: 30px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* .footer-left .logo {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+} */
+
+.footer-left .logo span {
+  color: #d946ef;
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(to right, #fb923c,#d946ef);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.footer-left p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.footer-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-right input {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: #1a1a1a;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer-right button {
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.footer-links p {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.footer-links p:hover{
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+
+  .footer-right input,
+  .footer-right button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}

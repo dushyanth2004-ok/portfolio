@@ -1,0 +1,66 @@
+
+.about {
+  background: #0d0d0d;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.skills {
+  margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.skills div {
+  margin: 15px 0;
+}
+
+.skills .bar {
+  height: 8px;
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  border-radius: 20px;
+}
+
+.skills .html { width: 90%; }
+.skills .react { width: 95%; }
+.skills .js { width: 92%; }
+.skills .next { width: 89%; }
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats strong {
+  font-size: 2rem;
+  background: linear-gradient(to right, #d946ef, #fb923c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
